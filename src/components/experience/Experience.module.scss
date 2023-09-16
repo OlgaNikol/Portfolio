@@ -1,0 +1,21 @@
+@import '../../style/variables';
+
+.experience {
+  &__items {
+    margin-top: 60px;
+    padding: 0 10px;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(270px, auto));
+    grid-auto-rows: minmax(270px, auto);
+    gap: 40px;
+    color: #ffffff;
+  }
+  &__item {
+    &-head {
+      margin-bottom: 20px;
+    }
+    &-desc {
+      font-size: 14px;
+    }
+  }
+}

@@ -1,0 +1,55 @@
+@import "../../style/variables";
+
+.home {
+  min-height: 100vh;
+  position: relative;
+  color: $light;
+  padding-top: 170px;
+  letter-spacing: 2px;
+
+  &__title {
+    width: 535px;
+    margin-top: 10px;
+  }
+
+  &__subtitle {
+    position: relative;
+    padding-left: 10px;
+    z-index: 2;
+    &:before {
+      content: '';
+      position: absolute;
+      z-index: -1;
+      top: -44%;
+      left: 0;
+      width: 36px;
+      height: 36px;
+      border-radius: 100%;
+      background: $main-color;
+    }
+  }
+
+  &__btns {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+    a {
+      text-decoration: none;
+      color: #ffffff;
+      &:first-child {
+        color: $main-color;
+      }
+    }
+  }
+
+  &__link {
+    color: #000;
+    font-weight: bold;
+    &:hover {
+      color: #000;
+      text-decoration: none;
+    }
+  }
+}
