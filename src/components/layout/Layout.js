@@ -1,12 +1,10 @@
-import Hamburger from "../hamburger/Hamburger";
-import SideBar from "../sideBar/SideBar";
+import NavBar from "../navBar/NavBar";
 import {Outlet} from "react-router-dom";
 
 const Layout = () => {
     return (
         <>
-            <Hamburger/>
-            <SideBar/>
+            <NavBar/>
             <Outlet/>
         </>
     );

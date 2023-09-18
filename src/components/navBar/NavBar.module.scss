@@ -1,0 +1,30 @@
+@import "../../style/variables";
+
+.menu {
+  position: fixed;
+  top: 30px;
+  right: 40px;
+  cursor: pointer;
+  z-index: 4;
+  &__list {
+    display: flex;
+    list-style: none;
+  }
+  &__link {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 20px;
+    a {
+      text-decoration: none;
+      color: $light;
+      transition: all 0.4s;
+      &:hover {
+        color: $main-color;
+      }
+      &.active {
+        color: $main-color;
+      }
+    }
+  }
+}

@@ -7,8 +7,8 @@
     display: grid;
     grid-template-columns: repeat(4, minmax(270px, auto));
     grid-auto-rows: minmax(270px, auto);
-    gap: 40px;
-    color: #ffffff;
+    gap: 65px;
+    color: $light;
   }
   &__item {
     &-head {

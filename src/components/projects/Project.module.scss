@@ -8,7 +8,7 @@
     grid-auto-rows: minmax(270px, auto);
     gap: 26px;
     justify-content: center;
-    color: #ffffff;
+    color: $light;
   }
   &__item {
     box-shadow: 0 1px 30px rgba(255, 255, 255, 0.2);
