@@ -1,10 +1,10 @@
-import styles from "./Skill.module.scss";
+import "./Skill.scss";
 
 const Skill = (props) => {
     const { name, description, image } = props;
 
-    return <div className={styles.skills__item}>
-            <div className={styles.skills__item_img}>
+    return <div className="skills__item">
+            <div className="skills__item_img">
                 <img src={image} alt="icon_skill" />
             </div>
             <h3 className="title title_fz14">{name}</h3>

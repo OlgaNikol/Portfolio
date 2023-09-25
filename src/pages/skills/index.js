@@ -1,11 +1,14 @@
-import styles from "../../components/skills/Skill.module.scss";
+import "../../components/skills/Skill.scss";
 import SkillsList from "../../components/skills/SkillsList";
+import {useSelector} from "react-redux";
+import {languageSelector} from "../../store/selector";
 
 const SkillsPage = () => {
-    return <div className={styles.skills}>
+    const lang = useSelector(languageSelector);
+
+    return <div className="skills">
         <div className="container">
-            {/*<h2 className="title title_fz16 title__section-title">Skills</h2>*/}
-            <div className="title title_fz36 title__section-subtitle">What I use</div>
+            <div className="title title_fz36 title__section-subtitle">{lang === "english" ? "What I use" : "Що я використовую в роботі"}</div>
             <div className="divider"></div>
 
             <SkillsList />

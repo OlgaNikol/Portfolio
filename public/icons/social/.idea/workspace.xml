@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6bb48ea9-3c70-40d5-9061-81a516cd2602" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../src/components/languageMenu/LanguageMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../src/components/languageMenu/LanguageMenu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../src/components/layout/Layout.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/components/experience/Experience.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../src/components/experience/Experience.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/components/experience/ExperienceBlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../src/components/experience/ExperienceBlock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/components/experience/ExperienceList.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../src/components/experience/ExperienceList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/components/hamburger/Hamburger.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/components/hamburger/Hamburger.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/components/layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../src/components/layout/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/components/navBar/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../src/components/navBar/NavBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/components/navBar/NavBar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../src/components/navBar/NavBar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/components/projects/Project.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../src/components/projects/Project.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/components/projects/Project.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../src/components/projects/Project.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/components/projects/ProjectDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../src/components/projects/ProjectDetails.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/components/projects/ProjectDetails.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../src/components/projects/ProjectDetails.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/components/projects/ProjectsList.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../src/components/projects/ProjectsList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/components/sideBar/SideBar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/components/sideBar/SideBar.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/components/skills/Skill.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../src/components/skills/Skill.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/components/skills/Skill.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../src/components/skills/Skill.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/components/skills/SkillsList.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../src/components/skills/SkillsList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/pages/contactMe/contact.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../src/pages/contactMe/contact.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/pages/contactMe/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../src/pages/contactMe/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/pages/experience/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../src/pages/experience/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/pages/home/home.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../src/pages/home/home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/pages/home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../src/pages/home/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/pages/portfolio/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../src/pages/portfolio/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/pages/skills/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../src/pages/skills/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/store/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../src/store/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/store/selector.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../src/store/selector.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../src/style/_media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../src/style/_media.scss" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="2VtT8pKC7nh3dnXS82wM7NIrOuu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/root/Desktop/ecigs-vape-main/ecigs-vape-main",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6bb48ea9-3c70-40d5-9061-81a516cd2602" name="Changes" comment="" />
+      <created>1695654219130</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695654219130</updated>
+      <workItem from="1695654220376" duration="114000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

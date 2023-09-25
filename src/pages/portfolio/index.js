@@ -1,10 +1,14 @@
-import styles from "../../components/projects/Project.module.scss";
+import "../../components/projects/Project.scss";
 import {Outlet} from "react-router-dom";
+import {useSelector} from "react-redux";
+import {languageSelector} from "../../store/selector";
 
 const PortfolioPage = () => {
-    return <div className={styles.project}>
+    const lang = useSelector(languageSelector);
+
+    return <div className="project">
         <div className="container">
-            <div className="title title_fz36 title__section-subtitle">my portfolio</div>
+            <div className="title title_fz36 title__section-subtitle">{lang === "ukrainian" ? "портфоліо" : "portfolio"}</div>
             <div className="divider"></div>
 
             <Outlet/>

@@ -1,18 +1,28 @@
-import styles from './Experience.module.scss';
+import './Experience.scss';
 
 import ExperienceBlock from "./ExperienceBlock";
 import {useSelector} from "react-redux";
-import {experienceSelector} from "../../store/selector";
+import {experienceEngSelector, experienceUkrSelector, languageSelector} from "../../store/selector";
 
 const ExperienceList = () => {
-    const experienceList = useSelector(experienceSelector);
+    const lang = useSelector(languageSelector);
+    const experienceListEng = useSelector(experienceEngSelector);
+    const experienceListUkr = useSelector(experienceUkrSelector);
+    let experienceList;
 
-    return <div className={styles.experience__items}>
-        {
-            experienceList.map(item => (
-                <ExperienceBlock key={item.id} data={item}/>
-            ))
-        }
+    if (lang === "ukrainian") {
+        experienceList = experienceListUkr.map(item => (
+            <ExperienceBlock key={item.id} data={item}/>
+        ))
+    } else {
+        experienceList = experienceListEng.map(item => (
+            <ExperienceBlock key={item.id} data={item}/>
+        ))
+    }
+
+
+    return <div className="experience__items">
+        {experienceList}
     </div>
 }
 

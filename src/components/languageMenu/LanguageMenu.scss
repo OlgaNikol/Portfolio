@@ -1,0 +1,22 @@
+@import "../../style/variables";
+
+.menuLang {
+  //position: absolute;
+  //top: -27px;
+  //right: 50px;
+  //cursor: pointer;
+  //z-index: 4;
+  &__list {
+    display: flex;
+    list-style: none;
+  }
+  &__btn {
+    background: transparent;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+    img {
+      height: 36px;
+    }
+  }
+}
