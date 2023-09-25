@@ -20,7 +20,7 @@ const NotFound = () => {
 
 const router = createBrowserRouter([
     {
-        path: '/',
+        path: 'Portfolio',
         element: <Layout />,
         children: [
             {
